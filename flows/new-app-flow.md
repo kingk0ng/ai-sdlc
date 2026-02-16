@@ -121,7 +121,7 @@ This approach ensures AI maintains "memory" across the development lifecycle, pr
 - Prioritize backlog items
 
 **Recommended Skills:**
-- `skill-task-execution-engine` - Task decomposition and workflow planning
+- `agent-task-decomposition-expert` - Task decomposition and workflow planning
 - `skill-executing-plans` - Sprint planning and execution strategy
 
 **Output:** 📋 **Project Backlog** + **Sprint Plans**
