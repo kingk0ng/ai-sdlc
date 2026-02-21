@@ -42,6 +42,25 @@ This directory contains detailed workflow documentation for AI-assisted software
 
 ---
 
+### 3. [Additional Requirements Flow](additional-requirements-flow-v1.1A.md)
+
+**Use When:**
+- Adding new features to existing applications
+- Enhancing functionality of a running system
+- Evolving requirements for mature products
+- Need to ensure backward compatibility
+
+**Approach:** Analyze Before You Act (Impact Analysis First)
+
+**Steps:**
+1. Requirements Intake & Clarification
+2. Impact Analysis (Codebase, Dependencies, Risks)
+3. Task Breakdown & Planning
+4. Design Updates
+5. Implementation & Testing (with Regression Focus)
+
+---
+
 ## Flow Selection Guide
 
 | Scenario | Recommended Flow | Key Consideration |
@@ -53,6 +72,9 @@ This directory contains detailed workflow documentation for AI-assisted software
 | Compliance-driven rewrite | Migration Flow | Ensure behavior parity |
 | New SaaS product | New App Flow | Design-first approach |
 | Modernize mainframe | Migration Flow | Document implicit logic |
+| Add feature to existing app | Additional Requirements Flow | Impact analysis first |
+| Enhance running system | Additional Requirements Flow | Preserve stability |
+| Evolving product requirements | Additional Requirements Flow | Regression testing focus |
 
 ---
 
@@ -94,6 +116,13 @@ Both flows use specific skills from the `converted-templates/skills/` directory.
 4. **Parity testing** - Prove new system matches old behavior
 5. **Document decisions** - Record why bugs were preserved or fixed
 
+### For Additional Requirements
+1. **Impact analysis first** - Understand all affected components before coding
+2. **Map dependencies** - Trace direct and indirect impacts
+3. **Break down tasks** - Create discrete, estimable work items
+4. **Regression testing** - Ensure existing functionality preserved
+5. **Update design docs** - Keep SDD and diagrams current
+
 ---
 
 ## Related Resources
@@ -104,4 +133,4 @@ Both flows use specific skills from the `converted-templates/skills/` directory.
 
 ---
 
-_Last Updated: February 14, 2026_
+_Last Updated: February 19, 2026_
